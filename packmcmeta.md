@@ -8,3 +8,5 @@
 ```
 
 [formats on wiki](https://minecraft.fandom.com/wiki/Pack_format#Resources)
+
+[color codes on wiki](https://minecraft.fandom.com/wiki/Formatting_codes#Usage)
