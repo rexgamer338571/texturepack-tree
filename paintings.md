@@ -34,9 +34,17 @@
 
 ![donkey_kong](https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/64/Donkey_Kong_%28texture%29_JE1_BE1.png/revision/latest?cb=20201027074201)
 
+## earth
+
+![earth](https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/81/Earth_%28texture%29_BE2.png/revision/latest?cb=20201201163052)
+
 ## fighters
 
 ![fighters](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Fighters_%28texture%29_JE1_BE1.png/revision/latest?cb=20201027074143)
+
+## fire
+
+![fire](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Fire_%28texture%29_BE2.png/revision/latest?cb=20201201163117)
 
 ## graham
 
@@ -97,6 +105,14 @@
 ## wasteland
 
 ![wasteland](https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Wasteland_%28texture%29_JE1_BE1.png/revision/latest?cb=20201027072158)
+
+## water
+
+![water](https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Water_%28texture%29_BE2.png/revision/latest?cb=20201201163203)
+
+## wind
+
+![wind](https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7d/Wind_%28texture%29_BE2.png/revision/latest?cb=20201201163223)
 
 ## wither
 
