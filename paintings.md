@@ -1,3 +1,3 @@
 ## alban
 
-![alt alban](paintings/alban.png)
+![alban](./paintings/alban.png)
