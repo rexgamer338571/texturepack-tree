@@ -26,7 +26,7 @@
 │     │  └──📄 <particle_id>.json (e.g. ash.json)
 │     │
 │     ├──📂 shaders
-│     │  └── not relevant
+│     │  └── might add
 │     │
 │     ├──📂 texts
 │     │  ├──📄 credits.json
@@ -36,61 +36,177 @@
 │     │
 │     └──📂 textures
 │        ├──📂 block
-│        │  └──📄 <block_id>.png (e.g. stone.png)
+│        │  └──🖼️ <block_id>.png (e.g. stone.png)
 │        │
 │        ├──📂 colormap
-│        │  ├──📄 foliage.png 
-│        │  └──📄 grass.png
+│        │  ├──🖼️ foliage.png 
+│        │  └──🖼️ grass.png
 │        │
 │        ├──📂 effect
-│        │  └──📄 dither.png
+│        │  └──🖼️ dither.png
 │        │
 │        ├──📂 entity
 │        │  ├──📂 <entity_id> (e.g. villager)
-│        │  │  └──📄 (entity specific files) 
-│        │  ├──📄 alex.png
-│        │  ├──📄 banner_base.png
-│        │  ├──📄 bat.png
-│        │  ├──📄 beacon_beam.png
-│        │  ├──📄 blaze.png
-│        │  ├──📄 chicken.png
-│        │  ├──📄 dolphin.png
-│        │  ├──📄 elytra.png
-│        │  ├──📄 enchanting_table_book.png
-│        │  ├──📄 end_gateway_beam.png
-│        │  ├──📄 end_portal.png
-│        │  ├──📄 endermite.png
-│        │  ├──📄 experience_orb.png
-│        │  ├──📄 fishing_hook.png
-│        │  ├──📄 guardian.png
-│        │  ├──📄 guardian_beam.png
-│        │  ├──📄 guardian_elder.png
-│        │  ├──📄 lead_knot.png
-│        │  ├──📄 minecart.png
-│        │  ├──📄 phantom.png
-│        │  ├──📄 phantom_eyes.png
-│        │  ├──📄 shield_base.png
-│        │  ├──📄 shield_base_nopattern.png
-│        │  ├──📄 silverfish.png
-│        │  ├──📄 snow_golem.png
-│        │  ├──📄 spider_eyes.png
-│        │  ├──📄 steve.png
-│        │  ├──📄 trident.png
-│        │  ├──📄 trident_riptide.png
-│        │  ├──📄 wandering_trader.png
-│        │  └──📄 witch.png
+│        │  │  └──🖼️ (entity specific files) 
+│        │  ├──🖼️ alex.png
+│        │  ├──🖼️ banner_base.png
+│        │  ├──🖼️ bat.png
+│        │  ├──🖼️ beacon_beam.png
+│        │  ├──🖼️ blaze.png
+│        │  ├──🖼️ chicken.png
+│        │  ├──🖼️ dolphin.png
+│        │  ├──🖼️ elytra.png
+│        │  ├──🖼️ enchanting_table_book.png
+│        │  ├──🖼️ end_gateway_beam.png
+│        │  ├──🖼️ end_portal.png
+│        │  ├──🖼️ endermite.png
+│        │  ├──🖼️ experience_orb.png
+│        │  ├──🖼️ fishing_hook.png
+│        │  ├──🖼️ guardian.png
+│        │  ├──🖼️ guardian_beam.png
+│        │  ├──🖼️ guardian_elder.png
+│        │  ├──🖼️ lead_knot.png
+│        │  ├──🖼️ minecart.png
+│        │  ├──🖼️ phantom.png
+│        │  ├──🖼️ phantom_eyes.png
+│        │  ├──🖼️ shield_base.png
+│        │  ├──🖼️ shield_base_nopattern.png
+│        │  ├──🖼️ silverfish.png
+│        │  ├──🖼️ snow_golem.png
+│        │  ├──🖼️ spider_eyes.png
+│        │  ├──🖼️ steve.png
+│        │  ├──🖼️ trident.png
+│        │  ├──🖼️ trident_riptide.png
+│        │  ├──🖼️ wandering_trader.png
+│        │  └──🖼️ witch.png
 │        │
 │        ├──📂 environment
+│        │  ├──🖼️ clouds.png
+│        │  ├──🖼️ end_sky.png
+│        │  ├──🖼️ moon_phases.png
+│        │  ├──🖼️ rain.png
+│        │  ├──🖼️ snow.png
+│        │  └──🖼️ sun.png
+│        │
 │        ├──📂 font
+│        │  ├──🖼️ accented.png
+│        │  ├──🖼️ ascii.png
+│        │  ├──🖼️ ascii_sga.png
+│        │  ├──🖼️ asciillager.png
+│        │  ├──🖼️ nonlatin_european.png
+│        │  └──🖼️ unicode_page_<00-ff>.png
+│        │
 │        ├──📂 gui
+│        │  ├──📂 advancements
+│        │  │  ├──📂 backgrounds
+│        │  │  │  ├──🖼️ adventure.png
+│        │  │  │  ├──🖼️ end.png
+│        │  │  │  ├──🖼️ husbandry.png
+│        │  │  │  ├──🖼️ nether.png
+│        │  │  │  ├──🖼️ stone.png
+│        │  │  │
+│        │  │  ├──🖼️ tabs.png
+│        │  │  ├──🖼️ widgets.png
+│        │  │  └──🖼️ window.png
+│        │  │
+│        │  ├──📂 container
+│        │  │  ├──📂 creative_inventory
+│        │  │  ├──🖼️ anvil.png
+│        │  │  ├──🖼️ beacon.png
+│        │  │  ├──🖼️ blast_furnace.png
+│        │  │  ├──🖼️ brewing_stand.png
+│        │  │  ├──🖼️ bundle.png
+│        │  │  ├──🖼️ cartography_table.png
+│        │  │  ├──🖼️ crafting_table.png
+│        │  │  ├──🖼️ dispenser.png
+│        │  │  ├──🖼️ enchanting_table.png
+│        │  │  ├──🖼️ furnace.png
+│        │  │  ├──🖼️ gamemode_switcher.png
+│        │  │  ├──🖼️ generic_54.png
+│        │  │  ├──🖼️ grindstone.png
+│        │  │  ├──🖼️ hopper.png
+│        │  │  ├──🖼️ horse.png
+│        │  │  ├──🖼️ inventory.png
+│        │  │  ├──🖼️ loom.png
+│        │  │  ├──🖼️ shulker_box.png
+│        │  │  ├──🖼️ smithing.png
+│        │  │  ├──🖼️ smoker.png
+│        │  │  ├──🖼️ stats_icons.png
+│        │  │  ├──🖼️ stonecutter.png
+│        │  │  └──🖼️ villager2.png
+│        │  │
+│        │  ├──📂 presets
+│        │  │  └──🖼️ isles.png
+│        │  │ 
+│        │  ├──📂 title
+│        │  │  ├──📂 background
+│        │  │  │  ├──🖼️ panorama_<0-5>.png
+│        │  │  │  └──🖼️ panorama_overlay.png
+│        │  │  │
+│        │  │  ├──🖼️ edition.png
+│        │  │  ├──🖼️ minecraft.png
+│        │  │  └──🖼️ mojangstudios.png
+│        │  │
+│        │  ├──🖼️ accessibility.png
+│        │  ├──🖼️ bars.png
+│        │  ├──🖼️ book.png
+│        │  ├──🖼️ checkbox.png
+│        │  ├──🖼️ demo_background.png
+│        │  ├──🖼️ icons.png
+│        │  ├──🖼️ options_background.png
+│        │  ├──🖼️ recipe_book.png
+│        │  ├──🖼️ recipe_button.png
+│        │  ├──🖼️ resource_packs.png
+│        │  ├──🖼️ server_selection.png
+│        │  ├──🖼️ social_interactions.png
+│        │  ├──🖼️ stream_indicator.png
+│        │  ├──🖼️ toasts.png
+│        │  ├──🖼️ widgets.png
+│        │  └──🖼️ world_selection.png
+│        │
 │        ├──📂 item
+│        │  └──🖼️ <item_id>.png (e.g. apple.png)
+│        │
 │        ├──📂 map
+│        │  ├──🖼️ map_background.png
+│        │  ├──🖼️ map_background_checkerboard.png
+│        │  └──🖼️ map_icons.png
+│        │
 │        ├──📂 misc
+│        │  ├──🖼️ enchanted_item_glint.png
+│        │  ├──📄 enchanted_item_glint.png.mcmeta
+│        │  ├──🖼️ forcefield.png
+│        │  ├──🖼️ nausea.png
+│        │  ├──🖼️ powder_snow_outline.png
+│        │  ├──🖼️ pumpkinblur.png
+│        │  ├──📄 pumpkinblur.png.mcmeta
+│        │  ├──🖼️ shadow.png
+│        │  ├──📄 shadow.png.mcmeta
+│        │  ├──🖼️ spyglass_scope.png
+│        │  ├──🖼️ underwater.png
+│        │  ├──🖼️ unknown_pack.png
+│        │  ├──🖼️ unknown_server.png
+│        │  ├──🖼️ vignette.png
+│        │  ├──📄 vignette.png.mcmeta
+│        │  └──🖼️ white.png
+│        │
 │        ├──📂 mob_effect
+│        │  └──🖼️ <effect_id>.png (e.g. nausea.png)
+│        │
 │        ├──📂 models
+│        │  └──📂 armor
+│        │     ├──🖼️ chainmail_layer_<1-2>.png
+│        │     ├──🖼️ diamond_layer_<1-2>.png
+│        │     ├──🖼️ gold_layer_<1-2>.png
+│        │     ├──🖼️ iron_layer_<1-2>.png
+│        │     ├──🖼️ leather_layer_<1-2>.png
+│        │     ├──🖼️ leather_layer_<1-2>_overlay.png
+│        │     ├──🖼️ netherite_layer_<1-2>.png
+│        │     └──🖼️ turtle_layer_1.png
+│        │
 │        ├──📂 painting
 │        └──📂 particle
 │
-├──📄 pack.mcmeta
+├──🖼️ pack.mcmeta
 └──🖼️ pack.png
 ```
