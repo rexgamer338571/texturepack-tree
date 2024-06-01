@@ -204,9 +204,72 @@
 │        │     ├──🖼️ netherite_layer_<1-2>.png
 │        │     └──🖼️ turtle_layer_1.png
 │        │
-│        ├──📂 painting
+│        ├──📂 painting (check paintings.md)
+│        │  ├──🖼️ alban.png
+│        │  ├──🖼️ aztec.png
+│        │  ├──🖼️ aztec2.png
+│        │  ├──🖼️ back.png
+│        │  ├──🖼️ bomb.png
+│        │  ├──🖼️ burning_skull.png
+│        │  ├──🖼️ bust.png
+│        │  ├──🖼️ courbet.png
+│        │  ├──🖼️ creebet.png
+│        │  ├──🖼️ donkey_kong.png
+│        │  ├──🖼️ earth.png
+│        │  ├──🖼️ fighters.png
+│        │  ├──🖼️ fire.png
+│        │  ├──🖼️ graham.png
+│        │  ├──🖼️ kebab.png
+│        │  ├──🖼️ match.png
+│        │  ├──🖼️ pigscene.png
+│        │  ├──🖼️ plant.png
+│        │  ├──🖼️ pointer.png
+│        │  ├──🖼️ pool.png
+│        │  ├──🖼️ sea.png
+│        │  ├──🖼️ skeleton.png
+│        │  ├──🖼️ skull_and_roses.png
+│        │  ├──🖼️ stage.png
+│        │  ├──🖼️ sunset.png
+│        │  ├──🖼️ void.png
+│        │  ├──🖼️ wanderer.png
+│        │  ├──🖼️ wasteland.png
+│        │  ├──🖼️ water.png
+│        │  ├──🖼️ wind.png
+│        │  └──🖼️ wither.png
+│        │
 │        └──📂 particle
+│           ├──🖼️ angry.png
+│           ├──🖼️ big_smoke_<0-11>.png
+│           ├──🖼️ bubble.png
+│           ├──🖼️ bubble_pop_<0-4>.png
+│           ├──🖼️ critical_hit.png
+│           ├──🖼️ damage.png
+│           ├──🖼️ drip_fall.png
+│           ├──🖼️ drip_hang.png
+│           ├──🖼️ drip_land.png
+│           ├──🖼️ effect_<0-7>.png
+│           ├──🖼️ enchanted_hit.png
+│           ├──🖼️ explosion_<0-15>.png
+│           ├──🖼️ flame.png
+│           ├──🖼️ flash.png
+│           ├──🖼️ generic_<0-7>.png
+│           ├──🖼️ glint.png
+│           ├──🖼️ glitter_<0-7>.png
+│           ├──🖼️ glow.png
+│           ├──🖼️ heart.png
+│           ├──🖼️ lava.png
+│           ├──🖼️ naulitius.png
+│           ├──🖼️ note.png
+│           ├──🖼️ sga_<a-z>.png (enchanting table letters)
+│           ├──🖼️ soul_<0-10>.png
+│           ├──🖼️ soul_fire_flame.png
+│           ├──🖼️ spark_<0-7>.png
+│           ├──🖼️ spell_<0-7>.png
+│           ├──🖼️ splash_<0-3>.png
+│           ├──🖼️ sweep_<0-7>.png
+│           ├──🖼️ vibration.png
+│           └──📄 vibration.png.mcmeta
 │
-├──🖼️ pack.mcmeta
+├──📄 pack.mcmeta
 └──🖼️ pack.png
 ```
